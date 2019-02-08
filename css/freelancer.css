@@ -8,6 +8,7 @@ body {
   font-family: 'Lato';
 }
 
+
 h1,
 h2,
 h3,
@@ -120,25 +121,40 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  /* color: #fff; */
+  color:black;
+
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  /*color: #18BC9C; */
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+ /* color: #fff; */
+  color:black;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+ /* color: #18BC9C; */
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
 }
+
+/*
+#mainNav.navbar.center .navbar-inner {
+  text-align: center; !important;
+}
+
+#mainNav.navbar.center .navbar-inner .nav {
+  display:inline-block; !important;
+  float: none; !important;
+}
+
+*/
 
 @media (min-width: 992px) {
   #mainNav {
@@ -157,11 +173,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    /* background: #18BC9C; */
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    /* background: #18BC9C; */
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -175,6 +191,7 @@ section h2 {
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
+
 }
 
 header.masthead h1 {
@@ -191,6 +208,8 @@ header.masthead h2 {
   header.masthead {
     padding-top: calc(6rem + 106px);
     padding-bottom: 6rem;
+    margin-bottom: 222px;
+
   }
   header.masthead h1 {
     font-size: 4.75em;
